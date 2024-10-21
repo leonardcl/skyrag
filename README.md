@@ -30,31 +30,31 @@ Compared to Naïve RAG, SKYRAG achieves superior performance in terms of accurac
 To install and run SKYRAG locally, follow these steps:
 
 1. Clone this repository:
-   \`\`\`bash
+   ```bash
    git clone https://github.com/leonardcl/skyrag.git
-   \`\`\`
+   ```
 2. Navigate into the project directory:
-   \`\`\`bash
+   ```bash
    cd skyrag
-   \`\`\`
+   ```
 3. (Optional) Create a virtual environment:
-   \`\`\`bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-   \`\`\`
+   ```
 4. Install the required dependencies:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ## Usage
 
 You can explore and run SKYRAG using the provided Jupyter notebooks. Here's how to start Jupyter and run the notebooks:
 
 1. Start Jupyter Notebook:
-   \`\`\`bash
+   ```bash
    jupyter notebook
-   \`\`\`
+   ```
 2. Open the notebook `skyrag_demo.ipynb` to see a demonstration of SKYRAG in action.
 
    - The notebook will walk you through the retrieval and learning path generation process.
@@ -71,10 +71,10 @@ You can explore and run SKYRAG using the provided Jupyter notebooks. Here's how 
 We welcome contributions to SKYRAG! Please follow these steps if you'd like to contribute:
 
 1. Fork the repository.
-2. Create a new branch (\`git checkout -b feature-branch\`).
+2. Create a new branch (`git checkout -b feature-branch`).
 3. Make your changes.
-4. Commit your changes (\`git commit -m 'Add a new feature'\`).
-5. Push to the branch (\`git push origin feature-branch\`).
+4. Commit your changes (`git commit -m 'Add a new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
 6. Open a pull request.
 
 Please make sure to update tests as appropriate and follow the [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
